@@ -1,7 +1,3 @@
-var A = A || (function (Math) {
-  console.log(Math);
-  return {
-    Math
-  };
-})(Math);
+import './math';
+
 console.log('Math =', A.Math.ceil);
